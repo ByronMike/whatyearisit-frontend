@@ -3,7 +3,7 @@ function callDate() {
     .then((response) => response.json())
     .then((data) => {
       document.querySelector("#body").innerHTML += `
-        <p id="year">${data.year}</p>
+        <p id="year"></p>
         `;
     });
 }
