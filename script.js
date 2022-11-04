@@ -10,7 +10,7 @@ function callDate() {
 
 callDate();
 
-fetch("https://whatyearisit-backend-three.vercel.app/")
+fetch("https://whatyearisit-backend-three.vercel.app/date")
   .then((response) => response.json())
   .then((data) => {
     const date = data.date;
