@@ -13,6 +13,5 @@ callDate();
 fetch("https://whatyearisit-backend-three.vercel.app/date")
   .then((response) => response.json())
   .then((data) => {
-    const date = data.date;
-    document.querySelector("#year").textContent = date;
+    document.querySelector("#year").textContent = data.date;
   });
