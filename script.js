@@ -1,5 +1,5 @@
 function callDate() {
-  fetch("http://localhost:3000/date")
+  fetch("https://whatyearisit-backend-three.vercel.app/date")
     .then((response) => response.json())
     .then((data) => {
       document.querySelector("#body").innerHTML += `
